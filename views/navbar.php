@@ -34,7 +34,7 @@ $current_url = basename($_SERVER['REQUEST_URI'], ".php");
                     <a href="about.php" class="<?= ($current_url == 'about-us') ? 'active' : '' ?>">About Us</a>
                 </li>
                 <li>
-                    <a href="/contact.html" class="<?= ($current_url == 'contact') ? 'active' : '' ?>">Contact Us</a>
+                    <a href="contact.php" class="<?= ($current_url == 'contact') ? 'active' : '' ?>">Contact Us</a>
                 </li>
                 <li>
                     <a href="login.php" class="<?= ($current_url == 'login' || $current_url == 'register') ? 'active' : '' ?>">Login</a>
